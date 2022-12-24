@@ -1,1 +1,7 @@
+*.wav
+*.mp3
 *.mp4
+*.reapeaks
+.venv
+downloads-raw
+.ipynb_checkpoints

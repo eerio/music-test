@@ -1,4 +1,30 @@
+okej, dziala xdd
+w reaperze udalo mi sie wyrownac to tempo jakos tak na pale reka w koncu
+i dziala
+wyeksportowalem to do pliku osobnego
+i pora wyslac wszystkim ziomalom
+(ostatecnzie molesta + mfdoom zadzialaly elegancko xdd)
 
+okej, nie ma co tego robić w pythonie - krótki research prowadzi do tego:
+https://github.com/facebookresearch/demucs
+Facebook Research zrobił toola do ekstrakcji;
+zatem ściągam Molesta - 28.09.97
+$ youtube-dl https://www.youtube.com/watch?v=mYRpbGLuszU
+potem konwertuję:
+$ ffmpeg -i downloads-raw/Molesta\ -\ 28.09.97-mYRpbGLuszU.mkv molesta.mp3
+i wycinamy wokal:
+$ demucs --two-stems=vocals molesta.mp3 
+dobra kurwa no wyciął się ten wokal i jest zajebisty
+teraz trzeba znaleźć najlepszy beat na tej ziemi
+spróbuję B.I.G. - Kick in the door albo MF DOOM - Rapp Snitch Knishes
+
+pobrałem sobie z youtube-dl Could Heaven Ever Be Like This
+ustawiłem odpowiedni audio device w Reaperze, tak że mogłem odsłuchać
+sobie piosenki w nim już
+teraz chcę zrobić z tego instrumental
+Python time, robimy venva i będziemy się bawić FFT
+najpierw: ffmpeg -i 'Could ..' could-heaven.mp3
+następnie otwieramy mp3 w pythonie
 
 okej, wiec zaczynam
 sciagnalem sobie reapera na ubuntu i uzywam wersji bez instalowania poki co
