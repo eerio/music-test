@@ -1,3 +1,8 @@
+13.07.2023
+youtube-dl przestal dzialac, teraz:
+yt-dlp <url>
+
+
 okej, dziala xdd
 w reaperze udalo mi sie wyrownac to tempo jakos tak na pale reka w koncu
 i dziala
